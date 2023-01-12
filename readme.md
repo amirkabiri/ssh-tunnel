@@ -18,7 +18,7 @@ This will change it's port to `2222`.
 [sshocean.com](https://sshocean.com/) is one of websites that provides free SSH account.
 You can find another providers just by searching in google.
 
-(Feel free to send an Pull Request if you find a good provider)
+(Feel free to send a Pull Request if you find a better provider)
 
 # Setting up your client
 ## Android
@@ -47,4 +47,7 @@ default port is 8090, but you can specify another port by passing argument: `./s
 ## vpn.sh
 This script will tunnel your network completely, but you need to install `sshuttle` package first.
 
-Macos: `brew install sshuttle`
+MacOS: `brew install sshuttle`
+
+# Contribution
+Feel free to contribute on this project.
