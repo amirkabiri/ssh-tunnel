@@ -8,9 +8,11 @@ You need to get a server. By default, OpenSSH already installed on the servers a
 But it's better to change port of it.
 OpenSSH is running on port 22, by default. But this port may not working well, for example in current situation of Iran, the goverment has applied some packet dropping on this port.
 ### How to change SSH port on server?
-just edit this file `cat /etc/ssh/sshd_config` using vim (or other file editors) and add this code to first of it:
+just edit this file `/etc/ssh/sshd_config` using vim (or other file editors) and add this code to first of it:
 `Port 2222`
 This will change it's port to `2222`.
+
+**Advanced tip:** You can increase speed of vpn up to 3 times, just by [enabling BBR](https://unixcop.com/how-to-enable-bbr-on-debian-11-ubuntu/) on your server.
 
 ## Second method: Free SSH account 
 [sshocean.com](https://sshocean.com/) is one of websites that provides free SSH account.
